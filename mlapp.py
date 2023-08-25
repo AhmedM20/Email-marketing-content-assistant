@@ -1,6 +1,6 @@
 import cohere
 import gradio as gr
-co = cohere.Client('aJ2AOC9ign3E3xKpWiUQ6tAWdKRv7O6QWBvCQVrN') # This is your trial API key
+co = cohere.Client('Place your Api key here') # This is your trial API key get it from cohere page on google
 
 def write_email(tone="",goal="",industry="",text="",audience="",other=""):
     if goal=="Other":
